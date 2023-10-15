@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $# -ne 1 ]]; then
-    echo "Usage: $0 mountpoint"
+    echo "No mountpoints passed as arguments. Pass one as a mountpoint for it to run successfully"
     exit 1
 fi
 
